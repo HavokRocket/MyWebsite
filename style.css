@@ -5,8 +5,6 @@
     font-size: x-large;
     color:#F9DB6D;
     font-weight: 900;
-
-
 }
 
 p{
@@ -23,6 +21,7 @@ body{
 .baritem{
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 
 .select{
@@ -33,11 +32,36 @@ body{
     font-weight: 700;
     text-decoration: none;
     font-size: larger;
+    border-radius: 10px;
 }
 
 .baritem:hover{
     background-color: #d1d1d3;
     opacity: .9;
+}
+
+.about-content{
+    display: none;
+    position: absolute;
+    background-color: #d1d1d3;
+    min-width: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+}
+
+.about-content a{
+    display: block;
+}
+
+.about-content:hover .about-content a:hover{
+    background-color: #d1d1d3;
+    display: block;
+}
+
+.drop:hover .about-content{
+    display: block;
+    font-size: 20px;
 }
 
 .profile{
